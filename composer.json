@@ -1,0 +1,16 @@
+{
+
+    "name": "wilder18/composer",
+    "description": "quete composer",
+    "authors": [
+        {
+            "name": "Melusine45",
+            "email": "emmanuelle.mendels@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {"App\\":"src/"}
+    },
+    "require": {}
+}
