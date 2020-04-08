@@ -2,8 +2,9 @@
 
 require '../vendor/autoload.php';
 
-use App\Wcs\Hello;
+ Use HelloWorld\SayHello;
 
-$hello = new Hello();
-echo $hello->talk();
+echo SayHello::world();
+
+
 
